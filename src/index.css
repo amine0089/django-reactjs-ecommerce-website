@@ -1,0 +1,73 @@
+main{
+    min-height: 80vh;
+}
+.txt{
+    text-decoration: none;
+}
+.rating span{
+    margin:0.1rem;
+}
+.rating .fonts{
+    font-size: 12px;
+}
+h1{
+    font-size: 1.8rem;
+    padding: 1rem;
+}
+h2{
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+#cardmy{
+    border: 3px solid rgba(249, 249, 249, 0.1);
+    border-radius: 20px;
+    box-shadow: rgb(0 0 0 / 69%) 0px 26px 30px -10px, rgb(0 0 0 / 73%) 0px 16px 10px -10px;
+    cursor: pointer;
+    transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+}
+#cardmy:hover{
+    box-shadow: rgb(0 0 0 / 80%) 0px 40px 58px -16px, rgb(0 0 0 / 73%) 0px 30px 22px -10px;
+    transform: scale(1.05);
+    border-color: rgba(100, 100, 100, 0.8);
+}
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item-active{
+    display: flex;
+}
+.carousel{
+    border: 3px solid rgba(32, 29, 29, 0.1);
+    border-radius: 10px;
+    box-shadow: rgb(0 0 0 / 69%) 0px 26px 30px -10px, rgb(0 0 0 / 73%) 0px 16px 10px -10px;
+    cursor: pointer;
+    transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+}
+
+.carousel-caption{
+    position: absolute;
+    top: 0;
+}
+.carousel-caption h4{
+    color: #fff;
+}
+.carousel img{
+    display: block;
+    height: 300px;
+    padding: 30px;
+    margin: 40px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.carousel a{
+    margin: 0 auto;
+}
+@media (max-width: 900px){
+    .carousel-caption h2{
+        font-size: 2.5vh;
+    }
+}
+/* header */
+#headermy{
+    background: #090b13;
+}
